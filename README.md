@@ -1,5 +1,9 @@
 LinuxStartup
 ============
 
-My Linux installation does not seems to remember any settings. 
-This start up shell script will set some parameters to the value I prefer.
+Sometimes when using dual boot, if there is issue shutting down windown properly, windows drives are not accessible in linux. Use following commands to fix it
+
+```
+sudo ntfsfix /dev/sda3
+sudo ntfsfix /dev/sda2
+```
